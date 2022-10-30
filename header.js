@@ -1,9 +1,9 @@
-// let role = localStorage.getItem("role");
-// let status = localStorage.getItem("status");
-// if (status == null) {
-//     window.location.assign("https://tuan14321.github.io/project_mindX/index.html");
-//     alert("Must be login");
-// } 
+let role = localStorage.getItem("role");
+let status = localStorage.getItem("status");
+if (status == null) {
+    window.location.assign("index.html");
+    alert("Must be login");
+} 
 
 
 function showHeader() {
